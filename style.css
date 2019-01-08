@@ -1,0 +1,27 @@
+body {
+    background-color: lightgrey
+}
+.w3-container {
+    border: 5px white ;
+}
+#header {text-align: center}
+#header {color: darkgrey}
+#header {font-size: medium}
+
+#nav {text-align: center}
+#nav {color: darkgrey}
+#nav {font-size: medium}
+
+#section {color: darkgrey}
+
+#art {color: white}
+
+#aside {text-align: right}
+#aside {color: darkgrey}
+#aside {font-size: medium}
+
+#h1 {text-align: left}
+#h1 {color: darkgrey}
+
+#footer {text-align: center}
+#footer {color: darkgrey}
