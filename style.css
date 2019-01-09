@@ -1,27 +1,92 @@
 body {
-    background-color: lightgrey
+    background-color: darkgrey;
+    font-size: 20px;
 }
-.w3-container {
-    border: 5px white ;
+
+.container{
+    width: 80%;
+    margin: auto;
 }
-#header {text-align: center}
-#header {color: darkgrey}
-#header {font-size: medium}
 
-#nav {text-align: center}
-#nav {color: darkgrey}
-#nav {font-size: medium}
+header {
+    padding: 35px;
+    margin-bottom: 10px;
+    color: grey;
+    background: #ccc;
+    text-align: center;
+    background-color: white;
+}
+#nav {
+    padding: 35px;
+    margin-bottom: 20px;
+    margin-top: 10x;
+    text-align: center;
+    background-color: white;
+    color: grey;
+}
 
-#section {color: darkgrey}
+#section {
+    background-color:white;
+    width: 48%;
+    float: left;
+    color: grey;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
 
-#art {color: white}
+#art {
+    color: white;
+    background-color: grey; 
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+aside {
+    float: right;
+    width: 48%;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    height: 200px;
+    padding-top: 20px;
+}
 
-#aside {text-align: right}
-#aside {color: darkgrey}
-#aside {font-size: medium}
+#h1 {
+    height: 20px;
+    background-color: white;
+    padding: 20px;
+    color: grey;
+    margin-bottom: 10px;
+    
 
-#h1 {text-align: left}
-#h1 {color: darkgrey}
+}
+#p {
+    color: grey;
+    background-color:white; 
+    margin: auto;
+    padding: 10px;
+    
 
-#footer {text-align: center}
-#footer {color: darkgrey}
+    
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    padding: 35px;
+    
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 800px) {
+    header{
+        width: 95%;
+    }
+}
